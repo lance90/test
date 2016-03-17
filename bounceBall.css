@@ -21,6 +21,7 @@ h1{
 
 #game{
 	border: 1px solid;
+	
 }
 
 #ball{
@@ -30,6 +31,3 @@ h1{
 	background-color: black;
 }
 
-div{
-	float: left;
-}
