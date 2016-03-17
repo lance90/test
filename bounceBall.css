@@ -1,9 +1,9 @@
 #text{
-	width: 500px;
+	
+	width: 600px;
 	margin-top: 50px;
-	margin-left: 100px;
 	text-align: center;	
-	border: 1px solid;
+	float:left;
 }
 
 p{
@@ -20,14 +20,21 @@ h1{
 }
 
 #game{
-	border: 1px solid;
+	float: left;
+	width: 600px;
 	
 }
+	
 
-#ball{
+div.ball{
 	width: 100px;
 	height: 100px;
 	border-radius: 99em;
 	background-color: black;
+	-webkit-transition: margin-left 2s linear;
+	
 }
 
+div.ball:hover{
+	margin-left: 500px;
+}
