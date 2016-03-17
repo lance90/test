@@ -22,19 +22,22 @@ h1{
 #game{
 	float: left;
 	width: 600px;
-	
+	height: 500px;
 }
 	
 
 div.ball{
+	position: relative;
 	width: 100px;
 	height: 100px;
 	border-radius: 99em;
 	background-color: black;
-	-webkit-transition: margin-left 2s linear;
+	margin-left: auto;
+	margin-right: auto;
+	-webkit-animation:bounceBall 2s linear infinite alternate;
 	
 }
-
-div.ball:hover{
-	margin-left: 500px;
+@-webkit-keyframes bounceBall{
+    from {bottom:0%;}
+    to {bottom:-80%;}
 }
