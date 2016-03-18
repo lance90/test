@@ -33,16 +33,23 @@ h1{
 	height: 100px;
 	left: 50%;
 	border-radius: 99em;
-	background-color: red;
-	-webkit-animation:bounceBall 1s linear infinite alternate;
+	background-color: #66CCFF;
+	-webkit-animation:bounceBall 1.5s linear infinite alternate;
 }
 #fonts{
 	position: absolute;
-	font-size:30px;
+	font-size:50px;
 	font-family:monospace, sans-serif, fantasy;
     font-weight: bold;
 	left: 50%;
-	-webkit-animation:fonts 1s linear infinite alternate;
+	top:200px;
+	
+	/*-webkit-animation:fonts 5s linear infinite alternate;*/
+}
+
+#fonts > p{
+	font-size: 20px;
+	text-align:right;
 }
 	
 @-webkit-keyframes bounceBall{
@@ -54,7 +61,7 @@ h1{
 	}
 }
 
-@-webkit-keyframes fonts{
+/*@-webkit-keyframes fonts{
 	from{
 		top:0%;
 	}
@@ -62,3 +69,4 @@ h1{
 		top:70%;
 	}
 }
+*/
