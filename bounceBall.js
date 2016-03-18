@@ -11,7 +11,7 @@ $(function(){
 
 
 /*
-var change = 0;
+var ballPosition;
 
 function init(){
 	var ball = document.getElementById("ball");
